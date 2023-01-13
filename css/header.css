@@ -1,7 +1,7 @@
 .header {
     position  : relative;
-    z-index   : 100;
-    background: black;
+    z-index   : 200;
+    background: rgb(0, 0, 0);
     box-shadow: 0px 4px 4px rgba(135, 135, 135, 0.25);
 }
 
@@ -22,19 +22,19 @@
 }
 
 .nav__item:not(:last-child) {
-    margin-right: 60px;
+    margin-right: 80px;
 }
 
 .nav__link {
-    font-size  : 16px;
-    line-height: 19px;
+    font-size  : 19px;
+    line-height: 29px;
     text-align : right;
     color      : #fff;
-    transition : color .3s;
+    transition : color .4s;
 }
 
 .nav__link:hover {
-    color: #0a84ff;
+    color: #6c0aff;
 }
 
 .fa-user-o {
@@ -43,24 +43,24 @@
 
 .header__logo {
     color    : #fff;
-    font-size: 34px;
+    font-size: 36px;
 }
 
 .header__auth {
-    margin-left: 60px;
+    margin-left: 62px;
 }
 
 .logout {
     color      : #0a84ff;
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .registration,
 .login {
-    transition: color .3s;
+    transition: color .5s;
 }
 
 .registration:hover,
 .login:hover {
-    color: #0a84ff;
+    color: #7c0aff;
 }
