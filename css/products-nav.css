@@ -1,5 +1,5 @@
 .products-nav .grid-container {
-    margin-top           : 60px;
+    margin-top           : 50px;
     display              : grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows   : 1fr 1fr;
@@ -36,24 +36,24 @@
 .product-nav {
     display         : flex;
     flex-direction  : column;
-    background-color: #f6f6f6;
+    background-color: #c1b3c1;
 }
 
 .product-nav img {
-    width     : 240px;
+    width     : 220px;
     object-fit: cover;
 }
 
 .product-nav .product-btn {
-    padding: 20px;
+    padding: 30px;
 }
 
 .macbook img {
-    width: 400px;
+    width: 300px;
 }
 
 .product-nav .product-name {
-    font-size    : 24px;
+    font-size    : 22px;
     font-weight  : bold;
     margin-bottom: 10px;
     padding      : 20px;
@@ -63,7 +63,7 @@
 .product-nav .product-btn {
     font-size      : 16px;
     line-height    : 24px;
-    color          : #006DFE;
+    color          : #00fe04;
     text-decoration: none;
     display        : inline-block;
     background     : url(../img/svg/arrow.svg) no-repeat 40% center;

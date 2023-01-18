@@ -1,21 +1,21 @@
 .container {
-    max-width: 1440px;
-    padding  : 0 15px;
+    max-width: 1460px;
+    padding  : 0 16px;
     margin   : 0 auto;
 }
 
 .grid-container {
     width                : 100%;
     display              : grid;
-    grid-gap             : 20px;
+    grid-gap             : 30px;
     grid-template-columns: repeat(4, 1fr);
-    margin-top           : 20px;
-    margin-bottom        : 60px;
+    margin-top           : 30px;
+    margin-bottom        : 50px;
 }
 
 .product-grid {
-    grid-column          : 4 span;
-    grid-gap             : 20px;
+    grid-column          : 3 span;
+    grid-gap             : 30px;
     display              : grid;
     grid-template-columns: repeat(4, 1fr);
 }
@@ -30,7 +30,7 @@
 
 .fixed {
     position: fixed;
-    top     : 20px;
+    top     : 30px;
     left    : 0;
 }
 
@@ -41,5 +41,5 @@
 }
 
 .height {
-    height: 3000px;
+    height: 2000px;
 }
